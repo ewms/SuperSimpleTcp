@@ -1198,9 +1198,10 @@ namespace SuperSimpleTcp
                 var clientSentData = _client.Client.Receive(buff, SocketFlags.Peek) != 0;
                 return clientSentData; //False here though Poll() succeeded means we had a disconnect!
             }
-            catch (SocketException)
+            catch (SocketException ex)
             {
-                return false;
+                Logger?.Invoke($"{_header}poll socket from {ServerIpPort} failed with ex = {ex}");
+                return ex.SocketErrorCode == SocketError.TimedOut;
             }
         }
 

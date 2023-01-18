@@ -162,7 +162,7 @@ namespace SuperSimpleTcp
         private int _readTimeoutMs = 1000;
         private int _idleServerTimeoutMs = 0;
         private int _idleServerEvaluationIntervalMs = 1000;
-        private int _connectionLostEvaluationIntervalMs = 200;
+        private int _connectionLostEvaluationIntervalMs = 600;
 
         #endregion
 

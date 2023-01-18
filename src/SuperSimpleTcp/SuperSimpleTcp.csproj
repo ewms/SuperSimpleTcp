@@ -1,20 +1,20 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFrameworks>netcoreapp3.1;netstandard2.0;netstandard2.1;net461;net48;net5.0;net6.0</TargetFrameworks>
+		<TargetFrameworks>net6.0</TargetFrameworks>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<Version>3.0.6</Version>
-		<PackageReleaseNotes>Add NoDelay to settings (thank you @huangjia2107)</PackageReleaseNotes>
+		<PackageReleaseNotes>eOperator fork, does not disconnect on 110 timeout socket exceptions</PackageReleaseNotes>
 		<Authors>Joel Christner</Authors>
-		<Description>Simple wrapper for TCP client and server in C# with SSL support</Description>
+		<Description>FORK OF SUPER SIMPLE TCP FOR eOperator. Simple wrapper for TCP client and server in C# with SSL support</Description>
 		<Copyright>(c)2023 Joel Christner</Copyright>
 		<PackageLicenseUrl></PackageLicenseUrl>
-		<PackageProjectUrl>https://github.com/jchristn/supersimpletcp</PackageProjectUrl>
-		<RepositoryUrl>https://github.com/jchristn/supersimpletcp</RepositoryUrl>
+		<PackageProjectUrl>https://github.com/ewms/SuperSimpleTcp</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/ewms/SuperSimpleTcp</RepositoryUrl>
 		<RepositoryType>Github</RepositoryType>
 		<PackageTags>tcp messaging socket message sockets api rpc</PackageTags>
-		<PackageId>SuperSimpleTcp</PackageId>
-		<Product>SuperSimpleTcp</Product>
+		<PackageId>eOperator.SuperSimpleTcp</PackageId>
+		<Product>eOperator.SuperSimpleTcp</Product>
 		<PackageIconUrl></PackageIconUrl>
 		<PackageLicenseFile>LICENSE.md</PackageLicenseFile>
 		<PackageIcon>icon.png</PackageIcon>
