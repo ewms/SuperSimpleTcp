@@ -1,4 +1,7 @@
-﻿![supersimpletcp](https://github.com/jchristn/supersimpletcp/blob/master/assets/icon.ico)
+# Fork of SuperSimpleTcp maintained by eOperator team
+ 
+ 
+ ![supersimpletcp](https://github.com/jchristn/supersimpletcp/blob/master/assets/icon.ico)
 
 # SuperSimpleTcp
 
